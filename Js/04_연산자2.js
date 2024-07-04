@@ -172,3 +172,5 @@ function orCheck(params) {
 
   console.log(`나이가 18세 미만 이거나, 이름이 "김길동"인가? ${bool2}`);
 }
+
+
