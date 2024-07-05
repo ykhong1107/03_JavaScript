@@ -44,11 +44,11 @@ function withdrawal(){
   
   console.log(num1);
 
-  balance +- num1;
+  balance -= num1;
 
   output.innerText = balance;
 
   amount.value = '';
 
-
+  alert(`${num1}원이 출금됬어! 그리고 ${balance}원이 남았어~`)
 }
