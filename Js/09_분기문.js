@@ -88,7 +88,7 @@ function startGame(){
 
   // 맞춰야하는 난수(1~200) 발생
   const answer = 
-    Math.floor(Math.random() * 200) + 1; /* 0.0 <= skstn < 1.0 이기 때문 */
+    Math.floor(Math.random() * 200) + 1; /* 0.0 <= 난수 < 1.0 이기 때문 */
     
     // console.log("정답 : ", answer );
 
@@ -141,8 +141,8 @@ function startGame(){
 
   /* 정답이 아닌 경우 */
   if(value < answer){
-    str = `${value} [UP] / 시도 횟수 : ${count}회`;
     
+    str = `${value} [UP] / 시도 횟수 : ${count}회`;
   } else { // 큰 경우
     str = `${value} [DOWN] / 시도 횟수 : ${count}회`;
   }
