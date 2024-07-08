@@ -7,15 +7,12 @@
 
 /** 12345 출력 */
 function check1(){
-
   // num이 1부터 시작해서
   // 1씩 증가 하다가
   // num 값이 5 이하가 아닌 순간 반복을 종료하는 반복문
-  for(let num = 1 ; num <= 5 ; num++){
+  for(let num = 1; num <= 10 ;num++){
     console.log(num);
-
   }
-
 }
 
 // 1부터 10까지 1씩 증가하며 출력하기
@@ -24,7 +21,7 @@ function check2(){
   for(let num = 1; num <= 10 ;num++){
     console.log(num);
   }
-
+  
 }
 
 // 5부터 13까지 1씩 증가하며 출력하기
@@ -33,7 +30,7 @@ function check3(){
   for(let num = 5; num <= 13 ;num++){
     console.log(num);
   }
-
+  
 }
 
 // 1부터 5까지 1씩 증가한 숫자를 한 줄로 출력하기
@@ -41,14 +38,15 @@ function check4(){
 
   let result = ''; // 결과 저장용 변수에 빈칸(string);
 
-  for(let num = 1; num <= 5 ;num++){
-    result += num;   // result = result + num;
-  }
-    console.log(result); // '12345'
+for(let num = 1; num <= 5 ;num++){
+  result += num;   // result = result + num;
+}
+  console.log(result); // '12345'
 }
 
+// 1부터 10까지 1씩 증가한 숫자들의 합을 출력하기
 function check5(){
-
+  
   let sum = 0; // 더했을 때 영향이 없는 숫자 0을 대입
 
   for(let num = 1; num <= 10 ;num++){
@@ -56,8 +54,10 @@ function check5(){
   }
     console.log(sum); 
 }
+
 // shift + alt + r -> 한번에 바꾸기!~!!!
 
+// 1부터 10까지 2씩 증가하며 출력하기
 function check6(){
 
   // 증감식을 2씩 증가하도록 변경(복학 대입 연산자 사용)
@@ -68,6 +68,7 @@ function check6(){
 
 }
 
+// 3부터 30까지 3의 배수만 출력하기
 function check7(){
 
   for(let num = 3; num <= 30; num += 3){
@@ -77,6 +78,7 @@ function check7(){
 
 }
 
+// 1부터 20까지 4의 배수만 출력하고 4의 배수 합계도 구하기
 function check8(){
 
   let sum = 0; // 합계 저장용 변수
@@ -117,6 +119,7 @@ function check9(){
   console.log("합계 :", sum);
 }
 
+// 구구단 출력
 function check10(){
 
   // 단이 입력되는 요소 얻어오기
@@ -142,6 +145,7 @@ function check10(){
   }
 }
 
+// 10부터 1까지 1씩 감소하며 출력하기
 function check11(){
 
   for(let num = 10; num > 0 ;num--){
@@ -150,6 +154,7 @@ function check11(){
 
 }
 
+// 입력 받은 단 거꾸로 출력 하기
 function check12(){
 
   const input = document.getElementById("dan12");
@@ -173,6 +178,7 @@ function check12(){
 
 
 }
+
 
 function check13(){
 

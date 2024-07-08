@@ -163,5 +163,5 @@ function cssTest1(){
   // 첫 번째 요소만 선택
   const test1 = document.querySelector('[target-div = css-div] > div')
 
-  test1.style.fontSize = "30px";
 }
+test1.style.fontSize = "30px";
