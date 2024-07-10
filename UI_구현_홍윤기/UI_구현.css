@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  font-family: "normal";
+  
+  font-weight: bold;
+  margin: auto 200px;
+  /* border: 1px solid black;   */
+  margin-top: 250px;
+  
+}
+
+.a{
+  position: relative;
+  left: 70px;
+}
+
+.b{
+  position: relative;
+  left: 100px;
+}
+
+.fisrtline > span > input{
+  width: 100px;
+}
+
+.secondline > span > input[type="text"]{
+  width: 100px
+}
+
+.thirdline > span > input{
+  width: 180px
+}
+
+.lastline > input{
+  width: 400px;
+}
+
+.applyButton{
+  position: relative;
+  left: 240px;
+}
+
+
+.final-box {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+}
+
+.result {
+  /* width: 300px;
+  height: 300px; */
+  /* background-color: yellow; */
+  border: 1px solid black;
+  display: flex;
+  /* margin-top: 30px; */
+  margin: 30px auto;
+}
+
+
+
