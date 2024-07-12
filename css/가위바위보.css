@@ -1,50 +1,25 @@
 *{
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-  min-height: 100vh;
+body {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.main-container{
-  /* border: 1px solid black; */
-  /* margin: 30px auto; */
-  width: 810px;
+main{
+  width: 800px;
   height: 500px;
   display: flex;
-  
+  padding: 20px;
 }
 
-.game-board{
-  border: 1px solid black;
-  width: 80%;
+section{
+  width: 200px;
+  height: 100%;
   display: flex;
-  margin: 30px auto;
 }
-
-.image1{
-  border: 1px solid black;
-  width: 250px;
-  height: 250px;
-  /* display: flex; */
-  
-}
-
-.vs{
-  width: 50px;
-  height: 100px;
-  
-}
-
-.image2{
-  border: 1px solid black;
-  width: 250px;
-  height: 250px;
-}
-
