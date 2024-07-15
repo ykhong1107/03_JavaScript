@@ -1,0 +1,25 @@
+*{
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  padding: 20px;
+}
+
+section{
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
