@@ -14,9 +14,10 @@ changeBtn.addEventListener("click", function(){
   // 상태 선택자 : checked -> 체크된 요소를 선택
   const checkBtn = 
   document.querySelector("[name = opacity-btn]:checked");
-  // 선택 안되면 null 반환
   
+  // 선택 안되면 null 반환
   let op;
+  
   if( checkBtn === null ) op = 1; // 체크가 안되어 있으면 1
   else                    op = checkBtn.value; // 체크된 값
 
@@ -37,4 +38,3 @@ changeBtn.addEventListener("click", function(){
   나머지 요소(div,p,span,...)에 작성된 내용
     -> innerText, innerHTML
 */
-
